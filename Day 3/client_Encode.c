@@ -122,3 +122,10 @@ int main() {
     WSACleanup();
     return 0;
 }
+
+/*
+
+To compile : gcc client_Encode.c -o client_Encode.exe -lws2_32
+To run : ./client_Encode.exe
+
+*/

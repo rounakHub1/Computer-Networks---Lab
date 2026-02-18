@@ -103,3 +103,10 @@ int main() {
     WSACleanup();
     return 0;
 }
+
+/*
+
+To compile : gcc server_Decode.c -o server_Decode.exe -lws2_32
+To run : ./server_Decode.exe
+
+*/

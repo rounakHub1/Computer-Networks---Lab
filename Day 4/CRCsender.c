@@ -96,3 +96,10 @@ int main() {
     WSACleanup();
     return 0;
 }
+
+/*
+
+To compile : gcc CRCsender.c -o sender.exe -lws2_32
+To run : ./sender.exe
+
+*/

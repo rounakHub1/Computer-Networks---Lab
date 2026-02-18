@@ -69,3 +69,10 @@ int main() {
     WSACleanup();
     return 0;
 }
+
+/*
+
+To compile : gcc CRCreceiver.c -o receiver.exe -lws2_32
+To run : ./receiver.exe
+
+*/

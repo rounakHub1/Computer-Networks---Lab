@@ -55,3 +55,10 @@ int main() {
     WSACleanup();
     return 0;
 }
+
+/*
+
+To compile : gcc client.c -o client.exe -lws2_32
+To run : ./client.exe
+
+*/

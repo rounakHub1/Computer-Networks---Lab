@@ -83,3 +83,10 @@ int main() {
     WSACleanup();
     return 0;
 }
+
+/*
+
+To compile : gcc server.c -o server.exe -lws2_32
+To run : ./server.exe
+
+*/
